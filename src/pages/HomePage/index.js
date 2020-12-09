@@ -1,4 +1,6 @@
 import React from 'react'
+import { FaBeer } from 'react-icons/fa';
+import { BsFillArchiveFill } from "react-icons/bs";
 
 class HomePage extends React.PureComponent {
   constructor (props) {
@@ -8,7 +10,10 @@ class HomePage extends React.PureComponent {
 
   render () {
     return (
-      <div></div>
+      <div>
+        <BsFillArchiveFill />
+        <FaBeer />
+      </div>
     )
   }
 }
